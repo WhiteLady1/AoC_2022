@@ -2,7 +2,6 @@ import React from 'react';
 import { TemplateOfTheDay } from '../template';
 import { moves, cargo } from './source';
 
-const TEST_MOVES = ["move 4 from 9 to 1", "move 6 from 3 to 1"];
 const CARGO = cargo;
 
 export const Day5 = (results) => {
