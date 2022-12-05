@@ -1,0 +1,41 @@
+.App {
+  text-align: center;
+}
+
+h2,h3 {
+  color: #00cc00;
+  text-shadow: 0 0 2px #00cc00, 0 0 5px #00cc00;
+}
+
+h3 {
+  font-size: 16px;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+  margin: 20px;
+}
+
+@media only screen and (min-width: 500px) {
+  .container {
+    justify-content: unset;
+  }
+}
+
+.stars {
+  display: flex;
+  justify-content: center;
+}
+
+.star {
+  font-size: 20px;
+  color: #0d2510;
+}
+
+.star--active {
+  color: gold;
+  text-shadow: 0 0 2px gold, 0 0 5px gold;
+}
