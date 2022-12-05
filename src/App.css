@@ -1,4 +1,7 @@
 .App {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
   text-align: center;
 }
 
@@ -16,6 +19,7 @@ h3 {
   flex-wrap: wrap;
   justify-content: center;
   gap: 25px;
+  height: 100%;
   margin: 20px;
 }
 
@@ -38,4 +42,19 @@ h3 {
 .star--active {
   color: gold;
   text-shadow: 0 0 2px gold, 0 0 5px gold;
+}
+
+.footer {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.footer a {
+  color: #00cc00;
+  text-shadow: 0 0 2px #00cc00, 0 0 5px #00cc00;
+  text-decoration: none;
+  cursor: pointer;
 }

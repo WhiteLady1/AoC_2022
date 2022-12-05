@@ -4,5 +4,6 @@ export * from './day3';
 export * from './day4';
 export * from './day5';
 
+export * from './footer';
 export * from './stars';
 export * from './template';
