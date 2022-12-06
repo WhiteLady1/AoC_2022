@@ -76,7 +76,6 @@ export const Day3 = (results) => {
 
   const resultOne = getLettersScore(source);
   const resultTwo = getLettersScore2(source);
-  console.log('day3', results)
 
   return (
     <TemplateOfTheDay
